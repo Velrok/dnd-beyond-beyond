@@ -1,26 +1,55 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
+  /* enable dark mode*/
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
 }
 
 .stat {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .base-attributes {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .base-attributes div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .base-attributes span {
-    text-align: center;
+  text-align: center;
 }
 
 .modifier_positive::before {
-    content: '+';
-  }
+  content: "+";
+}
+
+.char-presentation {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 5px;
+  max-height: 50px;
+  margin-right: 1em;
+}
+
+.dot {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.copper {
+  background-color: brown;
+}
+
+
+
+
